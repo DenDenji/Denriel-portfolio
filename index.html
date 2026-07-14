@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Denriel Malimata | Portfolio</title>
+    <title>Mariel Abigail B. Malimata | Aesthetic Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Aesthetic Navigation Bar -->
     <nav>
         <div class="logo">D. MALIMATA</div>
         <ul class="nav-links">
@@ -21,25 +21,36 @@
 
     <div class="container">
         
-        <!-- Hero Section -->
+        <!-- Hero Section (With Photo Placeholder) -->
         <section class="hero" id="home">
-            <p class="greeting">Hi, my name is</p>
-            <h1>Denriel Vincent B. Malimata.</h1>
-            <h2>I build hardware & software solutions.</h2>
-            <p class="desc">
-                I am an IT Web Developer and Systems Integrator based in Biñan City. I specialize in building practical, technology-driven ecosystems—from NFC-based tracking applications to programmable hardware solutions—designed to improve operational efficiency.
-            </p>
-            <a href="#projects" class="btn">View My Work</a>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hi, my name is</p>
+                    <h1>Denriel Vincent B. Malimata.</h1>
+                    <h2>I build hardware & software solutions.</h2>
+                    <p class="desc">
+                        I am an IT Web Developer and Systems Integrator based in Biñan City, Laguna. I specialize in designing practical, technology-driven ecosystems—from NFC-based tracking to programmable hardware—to improve operational efficiency.
+                    </p>
+                    <a href="#projects" class="btn">View My Work</a>
+                </div>
+                <div class="hero-photo-container">
+                    <!-- REPLACE 'profile.jpg' WITH YOUR ACTUAL PROFILE PHOTO FILENAME -->
+                    <img src="./assets/b3873d8e-c444-49dc-ad22-5abbc0515f5a.jfif" alt="Denriel Vincent B. Malimata" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="hero-photo-placeholder" style="display:none;">
+                        [ Add Your Photo ]
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- About Section -->
+        <!-- About Me Section -->
         <section id="about">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div>
-                    <p>Hello! I am a driven Information Technology professional with a deep interest in finding the intersection between hardware, software, and data. My journey in tech involves hands-on development, whether that is setting up offline kiosk interfaces, integrating hardware like Arduinos, or analyzing organizational data.</p>
+                    <p>I am a driven Information Technology professional focused on developing comprehensive, technology-based solutions to optimize operations. My expertise spans web development, hardware-software integration, and data analytics.</p>
                     <br>
-                    <p>I thrive in environments where I can build comprehensive systems that solve real-world problems. When I'm not coding or researching, I'm analyzing data trends, exploring HR analytics, and ensuring technical infrastructures are optimized.</p>
+                    <p>I thrive in environments where I can build complex systems—from NFC tracking to Arduino programming—that solve real-world problems. When I'm not coding, I am analyzing data trends, exploring HR analytics, and ensuring technical infrastructures are optimized.</p>
                 </div>
                 <div>
                     <h3>Core Technologies & Skills</h3>
@@ -47,9 +58,9 @@
                         <span class="skill-tag">Web Development</span>
                         <span class="skill-tag">Systems Integration</span>
                         <span class="skill-tag">NFC Technology</span>
-                        <span class="skill-tag">Arduino Programming</span>
-                        <span class="skill-tag">IoT Ecosystems</span>
-                        <span class="skill-tag">HR Analytics & OCAI</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">Mobile Development</span>
                         <span class="skill-tag">IT Troubleshooting</span>
                     </div>
                     
@@ -77,78 +88,102 @@
             </div>
 
             <div class="timeline-item">
-                <div class="timeline-date">Expected Graduation: 2026</div>
-                <h3>Bachelor of Science in Information Technology</h3>
-                <h4>Cavite State University - Carmona</h4>
-                <ul>
-                    <li><strong>Relevant Coursework:</strong> Web Development, Systems Architecture, Hardware Programming, Data Analytics, Labor Law & Organizational Development.</li>
-                </ul>
+                <div class="timeline-date">Bachelor of Science in Information Technology</div>
+                <h3>Cavite State University</h3>
+                <p><strong>Relevant Coursework:</strong> Web Development, Systems Architecture, Hardware Programming, Data Analytics.</p>
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <!-- Projects Section (With Images) -->
         <section id="projects">
             <h2 class="section-title">Featured Projects</h2>
             
             <div class="projects-grid">
-                <!-- Project 1 -->
+                <!-- Project 1 (AttenZion) -->
                 <div class="project-card">
-                    <div>
-                        <div class="project-role">Co-Developer & Technical Researcher</div>
-                        <h3>AttenZion</h3>
-                        <p>An NFC Attendance Management System designed and implemented for Zion Academy of Carmona to streamline student tracking.</p>
-                        <ul>
-                            <li>Built an offline kiosk interface for seamless ID tapping.</li>
-                            <li>Integrated a comprehensive audit trail module for administrators.</li>
-                            <li>Created distinct user access levels for school staff and guardians.</li>
-                        </ul>
+                    <div class="project-image-container">
+                        <!-- REPLACE 'attenzion.jpg' WITH YOUR ACTUAL SYSTEM PHOTO -->
+                        <img src="./assets/Screenshot 2026-03-16 at 2.54.22 PM.png" alt="AttenZion System Screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-photo-placeholder" style="display:none;">
+                            [ Add System Photo ]
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <div>
+                            <div class="project-role">Co-Developer & Technical Researcher</div>
+                            <h3>AttenZion</h3>
+                            <p>An NFC Attendance Management System designed for Zion Academy of Carmona to streamline student tracking.</p>
+                            <ul>
+                               <li>Built an offline kiosk interface for seamless ID tapping.</li>
+                               <li>Integrated a comprehensive audit trail for administrators.</li>
+                               <li>Created distinct access levels for school staff and guardians.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
+                <!-- Project 2 (OmniSense) -->
                 <div class="project-card">
-                    <div>
-                        <div class="project-role">Lead Developer</div>
-                        <h3>Appointment System for Lying In.</h3>
-                        <p>A comprehensive solution for managing appointments in a lying-in setting.</p>
-                        <ul>
-                            <li>Developed the online booking interface for easy appointment scheduling.</li>
-                            <li>Formulated a comprehensive booking management system.</li>
-                        </ul>
+                    <div class="project-image-container">
+                        <!-- REPLACE 'omnisense.jpg' WITH YOUR ACTUAL SYSTEM PHOTO OR GRAPHIC -->
+                        <img src="omnisense.jpg" alt="OmniSense Ecosystem Diagram" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-photo-placeholder" style="display:none;">
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <div>
+                            <div class="project-role">Lead Developer</div>
+                            <h3>Appointment System for Lying In.</h3>
+                            <p>A comprehensive solution for managing appointments in a lying-in setting.</p>
+                            <ul>
+                                <li>Developed the core application logic and user interface.</li>
+                                <li>automated the appointment scheduling process.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
+                <!-- Project 3 (Meat Preservation) -->
                 <div class="project-card">
-                    <div>
-                        <div class="project-role">Co-Developer</div>
-                        <h3>Law Office Management System</h3>
-                        <p>Development of a management system for a government law office to streamline case tracking and document management.</p>
-                            <li>Programmed the backend logic for case management.</li>
-                            <li>Automated the document management workflow.</li>
-                        </ul>
+                    <div class="project-image-container">
+                        <!-- REPLACE 'meat-preservation.jpg' WITH YOUR ACTUAL SYSTEM PHOTO -->
+                        <img src="./assets/795f7cf4-c6f8-486e-b2ef-52a2ef819104.jfif" alt="Arduino Meat Preservation System" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="project-photo-placeholder" style="display:none;">
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <div>
+                            <div class="project-role">Co-Developer</div>
+                            <h3>Law Office Management System</h3>
+                            <p>A comprehensive solution for managing legal office operations.</p>
+                            <ul>
+                                <li>Programmed the backend logic for case management.</li>
+                                <li>Automated document processing and client communication.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" style="text-align: center; padding-bottom: 0;">
+        <section id="contact" style="text-align: center; padding-bottom: 20px;">
             <h2 class="section-title">Get In Touch</h2>
-            <p style="max-width: 600px; margin: 0 auto 2rem;">I am currently looking for new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hi, I'll try my best to get back to you!</p>
+            <p style="max-width: 620px; margin: 0 auto 3rem; font-size: 1.05rem;">I am always open to discussing new opportunities, innovative projects, or tech collaborations. Whether you have a question or just want to connect, feel free to reach out!</p>
             <a href="mailto:denvin678@gmail.com" class="btn">Say Hello</a>
         </section>
 
     </div>
 
-    <!-- Footer -->
+    <!-- Aesthetic Footer -->
     <footer>
         <div class="social-links">
             <!-- Add your actual links here -->
-            <a href="https://www.linkedin.com/in/denriel-malimata-147a14265/" title="LinkedIn">🔗 LinkedIn</a>
-            <a href="https://github.com/DenDenji" title="GitHub">💻 GitHub</a>
+            <a href="https://www.linkedin.com/in/denriel-malimata-147a14265/" title="LinkedIn" target="_blank">🔗</a>
+            <a href="https://github.com/DenDenji" title="GitHub" target="_blank">💻</a>
         </div>
-        <p>Built and Designed for Denriel Vincent B. Malimata.</p>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">Built and Designed for Denriel Vincent Malimata.</p>
+        <p style="font-size: 0.8rem; color: #4b5563; margin-top: 0.5rem;">Biñan, Laguna, Philippines</p>
     </footer>
 
 </body>
